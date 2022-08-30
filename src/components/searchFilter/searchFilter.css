@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input[name='searchInput'], form input[name='searchInput']:focus, form input[name='searchInput']:active, form input[name='searchInput']:visited {
+    width: 525px;
+    height: 26px;
+    background: black;
+    color: white;
+}
+
+form button svg path {
+    fill: #7a7979;
+    width: 30px;
+}
+
+form button svg{
+    width: 20px;
+}
+
+form button {
+    padding:0;
+    margin-left: -37px;
+    background: transparent;
+}
+
+form button:hover, form button:focus, form button:active, form button:visited {
+    border: none ;
+    outline: none;
+}
+
+@media only screen and (max-width: 1024px){
+	form {
+        width: 100%;
+        justify-content: right;
+        margin-right: 30px;
+    } 
+
+    form input[name='searchInput'], form input[name='searchInput']:focus, form input[name='searchInput']:active, form input[name='searchInput']:visited{
+        width: 200px;
+    } 
+}

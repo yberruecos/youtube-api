@@ -1,0 +1,30 @@
+header {
+    height: 85px;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    position: absolute;
+    left: 20px;
+    top: 22px;
+}
+
+header a svg {
+    width: 200px;
+    color: white;
+    /* background: white; */
+    border-radius: 6px;
+}
+
+#youtube-paths {
+    fill: white;
+}
+
+@media only screen and (max-width: 768px){
+	header a svg {
+        width: 120px;
+    } 
+}

@@ -1,0 +1,182 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "xEoeIb6y3xGK26JhvqUFliRMa_c",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "CO",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "2Htj8nhbWSUDF5gO1--Kvd3dfqI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "TiM_TFpT_DE"
+            },
+            "snippet": {
+                "publishedAt": "2022-05-26T22:00:09Z",
+                "channelId": "UC5Jn-9jqrVvKm9Hx0WW8Pgw",
+                "title": "La Bachata - MTZ Manuel Turizo | Video Oficial",
+                "description": "La Bachata - MTZ Manuel Turizo ESCÚCHALA EN TU PLATAFORMA PREFERIDA: ▷Apple Music: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TiM_TFpT_DE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TiM_TFpT_DE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TiM_TFpT_DE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MTZ Manuel Turizo",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-05-26T22:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "989n-ndix0Pa9iu70I4ZLUbsPUM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "h6LH0R0UnmQ"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-28T00:00:09Z",
+                "channelId": "UC-znDds1f3RWJM3S2VKcI-w",
+                "title": "La vida - Mike Bahía (Video Oficial)",
+                "description": "Suscríbete ahora al canal de YouTube de Mike Bahía: https://bit.ly/2Qh64FQ Escucha aquí lo mejor de Mike Bahía: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/h6LH0R0UnmQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/h6LH0R0UnmQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/h6LH0R0UnmQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mike Bahia",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-28T00:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6fYLH3k58PNIsvcoDtwqp23GYwk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "p-9mKK3oy4o"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-26T17:01:57Z",
+                "channelId": "UCRI7hheejBbWS6etTNwMT0g",
+                "title": "Anuel AA- Esa Cruz- (Audio Oficial)",
+                "description": "LasLeyendasNuncaMueren #AnuelAA #EsaCruz Suscríbete a mi canal ➡️https://radi.al/AnuelAA Stream/Download: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/p-9mKK3oy4o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/p-9mKK3oy4o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/p-9mKK3oy4o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Anuel AA",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-26T17:01:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1BUUI49f4DQIASdXqGj8GTSSwN8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WkCJDMbCiV0"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-18T18:00:09Z",
+                "channelId": "UCEFNzT2RoVqGkV4e3Osyx4A",
+                "title": "Piso 21 &amp; Manuel Turizo - Los Cachos (Video Oficial)",
+                "description": "Piso 21 & Manuel Turizo - Los Cachos (Video Oficial) Escucha “Los Cachos” en tu plataforma favorita: Spotify: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WkCJDMbCiV0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WkCJDMbCiV0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WkCJDMbCiV0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Piso 21",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-18T18:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1MECtqJc7h4mtpd3q2HahL3Iux0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fOAYjG_G4xY"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-02T20:00:59Z",
+                "channelId": "UChcn-n6L8vYHzsqOwOubdRQ",
+                "title": "Carlos Vives, Camilo - Baloncito Viejo (Official Video)",
+                "description": "Carlos Vives, Camilo - Baloncito Viejo (Official Video) Music: Apple Music: https://SML.lnk.to/BaloncitoViejo/applemusic Spotify: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fOAYjG_G4xY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fOAYjG_G4xY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fOAYjG_G4xY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "CarlosVivesVEVO",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-02T20:00:59Z"
+            }
+        }
+    ]
+}
