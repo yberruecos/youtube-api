@@ -10,10 +10,12 @@ cursor: pointer;
 width: 110px;
 border-radius: 51px;
 margin-right: 25px;
+color: #333333;
 `;
 
 const SpanActive=styled(Span)`
 background: gray;
+color: #ffffff;
 `;
 
 const TagsFilter=({tag,setTag}:{tag:string,setTag:any})=>{

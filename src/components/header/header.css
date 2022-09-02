@@ -24,6 +24,14 @@ header a svg {
 }
 
 @media only screen and (max-width: 768px){
+    header {
+        height: 85px;
+        border-bottom: 0.5px solid white;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: right;
+    }
+
 	header a svg {
         width: 120px;
     } 
