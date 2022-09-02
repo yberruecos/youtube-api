@@ -12,7 +12,7 @@ const Wapper=styled.section`
 `
 
 const Layout = ()=>{
-    const {error,isLoading,data}:any=useGetData()
+    const {error,data}:any=useGetData()
     const [tag,setTag]:any=useState('all')
     
     if(error)
@@ -20,13 +20,7 @@ const Layout = ()=>{
             <h1>An error was found</h1>
         )
 
-    if(isLoading)
-        return (
-            <h1>Loading...</h1>
-        )
-
-    if(data)
-    console.log(data)
+    if(data){
         let dataTag=!tag || tag!='all'?data.items.filter((i:videoInfo)=>i.snippet.tags?.find((j)=>j.toLowerCase()===tag)):data.items
         return (
             <Wapper>
@@ -42,6 +36,7 @@ const Layout = ()=>{
                 </div>
             </Wapper>
         )
+    }
 
     return (<></>)
 }

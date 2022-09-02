@@ -22,11 +22,10 @@ const fetchData=async()=>{
 }
 
 const useGetData=()=>{
-    const {error,isLoading,data}=useQuery(['data'],()=>fetchData(),{ keepPreviousData : true })
+    const {error,data}=useQuery(['data'],()=>fetchData(),{ keepPreviousData : true })
 
     return {
         error,
-        isLoading,
         data
     }
 }
