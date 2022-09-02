@@ -31,9 +31,9 @@ const LayoutResults = ()=>{
             <section>
                 <div className="grid-results">
                     {
-                        data.items.map((item:videoSearch,index:number)=>{
+                        data.items.map((info:videoSearch,index:number)=>{
                             return (
-                                <VideoCard key={`default-${index}`} info={item} type="results"></VideoCard>
+                                <VideoCard key={`default-${index}`} type="results" info={info}></VideoCard>
                             )
                         })
                     }

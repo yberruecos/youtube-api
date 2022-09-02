@@ -1,4 +1,5 @@
 import React from "react";
+import { Span } from "../tagsFilter/tagsFilter";
 import './videoCard.css'
 
 export type thumbail= {
@@ -74,7 +75,7 @@ const VideoCard=({info,type}:{info:any,type:string})=>{
                     <div>
                         <span>{info.snippet.channelTitle}</span><br/>
                         {info.statistics?
-                        <span className="video-card-views">{info.statistics.viewCount} views</span>:<></>
+                        <Span primary className="video-card-views">{info.statistics.viewCount} views</Span>:<></>
                         }
                     </div>
                 </div>

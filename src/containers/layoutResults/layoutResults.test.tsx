@@ -1,6 +1,7 @@
 import {describe,expect,test,beforeEach,vi} from 'vitest'
 import {screen,render} from '@testing-library/react'
 import LayoutResults from './layoutResults';
+import { Routes,Route,BrowserRouter } from 'react-router-dom';
 import mockSearchData from '../../mocks/mockSearchData.json'
 
 describe('LayoutResult test',()=>{
@@ -14,14 +15,14 @@ describe('LayoutResult test',()=>{
                             loading:null,
                             data:mockSearchData,
                             search:'',
-                            setSearch:{}
+                            setSearch:(val:string)=>val
                         }
                     }
                 }
             })
         });
 
-        const {container} = render(<LayoutResults></LayoutResults>)
+        const {container} = render(<BrowserRouter><Routes><Route path='/' element={<LayoutResults></LayoutResults>}></Route></Routes></BrowserRouter>)
         const videoCard=container.getElementsByTagName('article');
         expect(videoCard.length).toBe(5)
     })
